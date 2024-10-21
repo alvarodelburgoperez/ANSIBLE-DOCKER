@@ -25,6 +25,7 @@ sudo apt update
 sudo apt-get install nano
 sudo apt-get install software-properties-common
 sudo apt-add-repository ppa:ansible/ansible
+sudo apt'get install ansible
 ```
 
 Setup ansible
@@ -39,7 +40,6 @@ server1 ansible_host=node1
 server2 ansible_host=node2
 server3 ansible_host=node3
 
-[all:vars]
 [all:vars]
 ansible_connection=ssh
 ansible_user=root
